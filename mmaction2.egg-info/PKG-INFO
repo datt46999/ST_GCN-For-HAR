@@ -1,0 +1,99 @@
+Metadata-Version: 2.4
+Name: mmaction2
+Version: 1.2.0
+Summary: OpenMMLab Video Understanding Toolbox and Benchmark
+Home-page: https://github.com/open-mmlab/mmaction2
+Author: MMAction2 Contributors
+Author-email: openmmlab@gmail.com
+Maintainer: MMAction2 Contributors
+Maintainer-email: openmmlab@gmail.com
+License: Apache License 2.0
+Keywords: computer vision,video understanding
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: decord>=0.4.1
+Requires-Dist: einops
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: opencv-contrib-python
+Requires-Dist: Pillow
+Requires-Dist: scipy
+Requires-Dist: torch>=1.3
+Provides-Extra: all
+Requires-Dist: decord>=0.4.1; extra == "all"
+Requires-Dist: einops; extra == "all"
+Requires-Dist: matplotlib; extra == "all"
+Requires-Dist: numpy; extra == "all"
+Requires-Dist: opencv-contrib-python; extra == "all"
+Requires-Dist: Pillow; extra == "all"
+Requires-Dist: scipy; extra == "all"
+Requires-Dist: torch>=1.3; extra == "all"
+Requires-Dist: av>=9.0; extra == "all"
+Requires-Dist: future; extra == "all"
+Requires-Dist: imgaug; extra == "all"
+Requires-Dist: librosa; extra == "all"
+Requires-Dist: lmdb; extra == "all"
+Requires-Dist: moviepy; extra == "all"
+Requires-Dist: openai-clip; extra == "all"
+Requires-Dist: packaging; extra == "all"
+Requires-Dist: pims; extra == "all"
+Requires-Dist: PyTurboJPEG; extra == "all"
+Requires-Dist: soundfile; extra == "all"
+Requires-Dist: tensorboard; extra == "all"
+Requires-Dist: wandb; extra == "all"
+Requires-Dist: coverage; extra == "all"
+Requires-Dist: flake8; extra == "all"
+Requires-Dist: interrogate; extra == "all"
+Requires-Dist: isort==4.3.21; extra == "all"
+Requires-Dist: parameterized; extra == "all"
+Requires-Dist: pytest; extra == "all"
+Requires-Dist: pytest-runner; extra == "all"
+Requires-Dist: xdoctest>=0.10.0; extra == "all"
+Requires-Dist: yapf; extra == "all"
+Provides-Extra: tests
+Requires-Dist: coverage; extra == "tests"
+Requires-Dist: flake8; extra == "tests"
+Requires-Dist: interrogate; extra == "tests"
+Requires-Dist: isort==4.3.21; extra == "tests"
+Requires-Dist: parameterized; extra == "tests"
+Requires-Dist: pytest; extra == "tests"
+Requires-Dist: pytest-runner; extra == "tests"
+Requires-Dist: xdoctest>=0.10.0; extra == "tests"
+Requires-Dist: yapf; extra == "tests"
+Provides-Extra: optional
+Requires-Dist: av>=9.0; extra == "optional"
+Requires-Dist: future; extra == "optional"
+Requires-Dist: imgaug; extra == "optional"
+Requires-Dist: librosa; extra == "optional"
+Requires-Dist: lmdb; extra == "optional"
+Requires-Dist: moviepy; extra == "optional"
+Requires-Dist: openai-clip; extra == "optional"
+Requires-Dist: packaging; extra == "optional"
+Requires-Dist: pims; extra == "optional"
+Requires-Dist: PyTurboJPEG; extra == "optional"
+Requires-Dist: soundfile; extra == "optional"
+Requires-Dist: tensorboard; extra == "optional"
+Requires-Dist: wandb; extra == "optional"
+Provides-Extra: mim
+Requires-Dist: mmcv<2.2.0,>=2.0.0rc4; extra == "mim"
+Requires-Dist: mmengine<1.0.0,>=0.7.1; extra == "mim"
+Provides-Extra: multimodal
+Requires-Dist: transformers>=4.28.0; extra == "multimodal"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: summary
