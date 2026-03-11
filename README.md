@@ -32,7 +32,7 @@ python tools/test.py configs/config.py ${CHECKPOINT_FILE} [ARGS]
 ## 👀 Model pretrained :
 Download: https://drive.google.com/file/d/1gnpbIvQQ-VzlxPK-0MC0hCiaA24AOjco/view?usp=sharing
 
-Deploy results:
+## 👨‍🏫 Deploy and results:
 
 Val acc after traning in 16 epochs with RepeatDataset = 5 and each epoch: iter = 12529
 
