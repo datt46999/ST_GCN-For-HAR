@@ -28,7 +28,9 @@ python tools/test.py configs/config.py ${CHECKPOINT_FILE} [ARGS]
 '''
 ## 👀 Model pretrained :
 Download: https://drive.google.com/file/d/1gnpbIvQQ-VzlxPK-0MC0hCiaA24AOjco/view?usp=sharing
+
 Deploy results:
+
 Val acc after traning in 16 epochs with RepeatDataset = 5 and each epoch: iter = 12529
 
 <img width="620" height="487" alt="image" src="https://github.com/user-attachments/assets/03a26a31-f346-496f-a1e2-9dfed42d6c6c" />
