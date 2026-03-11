@@ -1,4 +1,5 @@
 ## 📖 Introduction 
+Model using Spatio-Temporal Graph Convolutional Networks (STGCN) has transferred to [mmaction2](https://github.com/open-mmlab/mmaction2)
 ## 🛠️ Installation
 ```shell
 conda create --name myenv python=3.10 -y
