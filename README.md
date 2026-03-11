@@ -1,5 +1,7 @@
 ## 📖 Introduction 
-Model using Spatio-Temporal Graph Convolutional Networks (STGCN) has transferred to [mmaction2](https://github.com/open-mmlab/mmaction2)
+Model using Spatio-Temporal Graph Convolutional Networks (STGCN) for human action recognite.
+This model implementation in this repository is inspired by the architecture and training pipeline used in [MMAction2](https://github.com/open-mmlab/mmaction2) which data was using NTURGB+D [2D Skeleton]
+
 ## 🛠️ Installation
 ```shell
 conda create --name myenv python=3.10 -y
@@ -17,7 +19,7 @@ pip install -v -e .
 ```
 ## 👨‍🏫 Get Started
 
-### Download dataset: https://github.com/open-mmlab/mmaction2/blob/main/tools/data/skeleton/README.md
+### Download dataset:[NTURGB+D_2d](https://github.com/open-mmlab/mmaction2/blob/main/tools/data/skeleton/README.md)
 ### Train:
 ```shell
 python tools/train.py configs/config.py 
@@ -38,7 +40,16 @@ Val acc after traning in 16 epochs with RepeatDataset = 5 and each epoch: iter =
 
 Loss function:
 
-<img width="611" height="474" alt="image" src="https://github.com/user-attachments/assets/64e660c1-2885-4bf9-aeaf-7e798d60e210" />
+<img width="641" height="514" alt="image" src="https://github.com/user-attachments/assets/5845ffc1-1c8a-4059-b152-771d77a0ca9b" />
+
+Test in video: 
+
+https://github.com/user-attachments/assets/bff59e4e-f630-473c-9cc7-b46cd1f7d8ac
+
+
+
+https://github.com/user-attachments/assets/6f3dbf2c-1faf-4370-b172-843e0a6675a1
+
 
 
 
