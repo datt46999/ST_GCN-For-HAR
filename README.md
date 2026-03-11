@@ -26,9 +26,9 @@ python tools/train.py configs/config.py
 ```
 
 ### Test:
-'''shell 
+```shell 
 python tools/test.py configs/config.py ${CHECKPOINT_FILE} [ARGS]
-'''
+```
 ## 👀 Model pretrained :
 Download: https://drive.google.com/file/d/1gnpbIvQQ-VzlxPK-0MC0hCiaA24AOjco/view?usp=sharing
 
