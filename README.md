@@ -30,7 +30,7 @@ python tools/train.py configs/config.py
 python tools/test.py configs/config.py ${CHECKPOINT_FILE} [ARGS]
 ```
 ## 👀 Model pretrained :
-Download: (Model)[https://drive.google.com/drive/folders/1Y2UPp4tRIQCRlbGpkXU1KfZJYeo9vs6d?usp=sharing]
+Download: [Model][https://drive.google.com/drive/folders/1Y2UPp4tRIQCRlbGpkXU1KfZJYeo9vs6d?usp=sharing]
 
 ## 👨‍🏫 Deploy and results:
 
